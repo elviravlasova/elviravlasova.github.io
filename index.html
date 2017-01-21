@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Коллектив нашей студии дизайна рад предложить Вам свою помощь в исполнении Вашей мечты о красивом и функциональном интерьере">
+    <meta name="keywords"  content="дизайнер, интерьерное бюро, астрахань, дизайн, интерьер, студия дизайна, декор, жилье, ремонт, салоны интерьера, мебельные салоны, строительные фирмы,  квартира, новостройки, красивые квартиры">
+    <title>Студия дизайна Эльвиры Власовой в городе Астрахань</title>
+    <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.scrollUp.min.js"></script>
+    <script type="text/javascript" src="./js/elviravlasova.js"></script>
+    <script type="text/javascript" src="./js/ideal-image-slider.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/ideal-image-slider.css">
+    <link rel="stylesheet" href="./css/elviravlasova.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+              <img src="./images/logo.png" alt="Dispute Bills">
+            </a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="/">О нас</a></li>
+              <li><a href="/portfolio">Портфолио</a></li>
+              <li><a href="/contacts">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="slider">
+            <img src="images/1.jpg" alt="">
+            <img data-src="images/2.jpg" src="" alt="">
+            <img data-src="images/3.jpg" src="" alt="">
+          </div>
+          <script>
+            var slider = new IdealImageSlider.Slider('#slider');
+            slider.start();
+          </script>
+        </div>
+      </div>
+  </body>
+</html>
