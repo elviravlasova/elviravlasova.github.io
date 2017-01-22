@@ -53,19 +53,19 @@
   font-size: 14px;
 }
 .tps-section:nth-child(1n+1) .tps-wrapper {
-  background: url(/images/portfolio/1.jpg) center center;
-  background-size: cover;
-}
-.tps-section:nth-child(2n+1) .tps-wrapper {
   background: url(/images/portfolio/2.jpg) center center;
   background-size: cover;
 }
-.tps-section:nth-child(3n+1) .tps-wrapper {
+.tps-section:nth-child(2n+1) .tps-wrapper {
   background: url(/images/portfolio/3.jpg) center center;
   background-size: cover;
 }
-.tps-section:nth-child(4n+1) .tps-wrapper {
+.tps-section:nth-child(3n+1) .tps-wrapper {
   background: url(/images/portfolio/4.jpg) center center;
+  background-size: cover;
+}
+.tps-section:nth-child(4n+1) .tps-wrapper {
+  background: url(/images/portfolio/1.jpg) center center;
   background-size: cover;
 }
 .tps-section:nth-child(5n+1) .tps-wrapper {
