@@ -46,9 +46,6 @@ h1 {
   font-size: 70px;
   font-weight: 100;
 }
-h1 .black {
-  color: #000;
-}
 h2 {
   padding: 00px 20px 30px 20px;
   box-sizing: border-box;
@@ -68,4 +65,7 @@ h2 {
   right: 20px;
   width: 38px;    /* Width of image */
   height: 38px;   /* Height of image */
+}
+.black {
+  color: #000;
 }
